@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { CLASSES, ACADEMIC_YEARS, MONTHS } from './constants.ts';
 import { Board, DOB, AgeResult } from './types.ts';
 import { calculateAge, validateAge, isValidDate } from './utils.ts';
